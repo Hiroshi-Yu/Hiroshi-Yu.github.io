@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: iDempiere社区
 
-tagline: China iDempiere Users Groups # it will display as the sub-title
+tagline: China iDempiere Users Group # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   推广iDempiere，结识更多的伙伴~
@@ -117,10 +117,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: Hiroshi-Yu/Hiroshi-Yu.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOMc6XFA
+    category: Announcements
+    category_id: DIC_kwDOMc6XFM4ChS8l
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
