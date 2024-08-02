@@ -5,6 +5,8 @@ categories: [社区管理, 社区定位] #上级文文档，下级文档
 tags: [社区管理]     # TAG
 media_subpath : /assets/img/in-post/2024/2024-07-30/
 description: 用一套成体系的资料来增加iDempiere爱好者
+image:
+    path: community-position.jpg
 ---
 
 _用几年前的文章水一篇测试_
