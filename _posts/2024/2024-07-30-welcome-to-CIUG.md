@@ -54,11 +54,12 @@ iDempiere本身的复杂度较高，导致整理并汇总一套成体系的文�
 [上一代的iDempiere中文社区](https://team.oschina.net/iDChina)依托于Team@OSC进行的搭建，由[不小](https://gitee.com/z5k1)主持相关工作，期间做了大量的文档相关的工作，可惜由于oschina工作重心的调整停止了Team工具的推广，后续我们也就不再使用这个工具了。
 
 目前互联网上还可以找到对应文档，为了减少损失，这里把备份的信息发布到这个仓内，有需要的可以自行下载。
-[备份信息 - GITHUB](https://github.com/Hiroshi-Yu/Hiroshi-Yu.github.io/tree/main/_posts/TeamOSC-iDChina/)
-[备份信息 - gitee国内镜像](https://gitee.com/idchina/idempiere.cn/tree/main/_posts/TeamOSC-iDChina)
+> [备份信息 - GITHUB](https://github.com/Hiroshi-Yu/Hiroshi-Yu.github.io/tree/main/_posts/TeamOSC-iDChina/)
+> 
+> [备份信息 - gitee国内镜像](https://gitee.com/idchina/idempiere.cn/tree/main/_posts/TeamOSC-iDChina)
 
-![Team@OSC的文档备份](teamOSC-doc.png){:.shadow width="500"}
-_Team@OSC的文档备份_
+> ![Team@OSC的文档备份](teamOSC-doc.png){:.shadow width="500"}
+> _Team@OSC的文档备份_
 
 另外，不小的文档使用gitee进行管理，也可以去他的仓进行查看。
 https://gitee.com/z5k1
