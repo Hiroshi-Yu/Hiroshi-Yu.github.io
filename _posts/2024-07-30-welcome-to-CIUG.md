@@ -4,8 +4,10 @@ date:  2024-07-30 09:17:03 +0800
 categories: [社区管理, 社区定位] #上级文文档，下级文档
 tags: [社区管理]     # TAG
 media_subpath : /assets/img/in-post/2024/2024-07-30/
-description: 用几年前的文章水一篇测试
+description: 用一套成体系的资料来增加iDempiere爱好者
 ---
+
+_用几年前的文章水一篇测试_
 
 ## 开源ERP/SCM/CRM领域
 
@@ -23,7 +25,7 @@ description: 用几年前的文章水一篇测试
 
 作为iDempiere中国社区的一员，深知这个已经不是酒香不怕巷子深的时代，如何用一套成体系的资料来增加iDempiere爱好者是一个行之有效的方法，更何况由于比较深入的了解iDempiere更加知道iDempiere可以为生产力带来怎样超绝的提高。后续就基于公网公开的已知信息和原始的iDempiere构筑一套体系。
 
-![lcn-logo](lcn-logo.png)
+![lcn-logo](lcn-logo.png){:.shadow width="200"}
 _iDempiere中国社区LOGO_
 
 其实iDempiere的知识和高速迭代、体系持续更新的基础软件相关的技术知识还不太一样，一旦掌握不太容易过时，学习的性价比还是比较高的。

@@ -12,3 +12,7 @@ order: 4
 [iDempiere国际社区GIT仓镜像](https://gitee.com/idempiere)
 
 [iDempiere中国社区的GIT仓资源](https://gitee.com/idchina)
+
+**鸣谢**
+
+* 网站建设 [Huanyu Shi](https://huanyushi.github.io/)

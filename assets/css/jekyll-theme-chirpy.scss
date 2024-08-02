@@ -1,0 +1,46 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+// 2024-8-2 拷贝自 https://huanyushi.github.io/
+
+// prompt 边框阴影
+blockquote[class^='prompt-']{
+    box-shadow: var(--language-border-color) 1px 1px 2px 1px; /* 借用了代码框的边框颜色变量 */
+}
+
+/* 侧边栏背景图片添加 */
+#sidebar {
+    background-image: url(https://cdn.jsdelivr.net/gh/Hiroshi-Yu/Hiroshi-Yu.github.io@main/assets/img/sitebar.png); /* <- change background image */
+    background-size: cover; /* <- customize the image size */
+    background-repeat: no-repeat; /* <- no-repeat */
+    background-position: top; /* <- image position */
+}
+
+/* 侧边栏相关文字样式设置 */
+#sidebar .site-title a {
+    color: #ffffff; 
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+#sidebar .site-subtitle {
+    color: #ffffff;
+    text-shadow: 2px 2px 3px rgba(0,0,0, 0.7);
+}
+#sidebar .sidebar-bottom .mode-toggle, #sidebar a {
+    color: #ffffff;
+}
+#sidebar .sidebar-bottom .btn {
+    color: var(--sidebar-btn-color);
+}
+
+// 让目录不产生折叠效果
+.is-collapsed {
+  max-height: none !important;
+}
