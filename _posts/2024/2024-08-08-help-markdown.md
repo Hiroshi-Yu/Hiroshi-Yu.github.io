@@ -97,6 +97,43 @@ _图片说明下标2_
   > 危险 - \{: .prompt-danger }
 {: .prompt-danger }
 
+#### 提示（仅本网站可用）
+<div class="box-info" markdown="1">
+<div class="title"> 抬头测试1 </div>
+内容描述1.
+</div>
+
+<div class="box-tip" markdown="1">
+<div class="title"> 抬头测试2 </div>
+内容描述2.
+</div>
+
+<div class="box-warning" markdown="1">
+<div class="title"> 抬头测试3 </div>
+内容描述3.
+</div>
+
+<div class="box-danger" markdown="1">
+<div class="title"> 抬头测试4 </div>
+内容描述4.
+> 内容描述5. 
+> 
+> $$x^2 + y^2 =z^2$$
+
+</div>
+
+  > 提示 - \{: .box-tip }
+{: .box-tip }
+
+  > 信息 - \{: .box-info }
+{: .box-info }
+
+  > 警告 - \{: .box-warning }
+{: .box-warning }
+
+  > 危险 - \{: .box-danger }
+{: .box-danger }
+
 #### Task List
 * [ ] task 1
 * [x] task 2
@@ -147,6 +184,18 @@ $$
 #### HTML元素定义
 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
 
+#### 展开
+<details class="details-block" markdown="1">
+<summary> 展开前状态 </summary>
+展开后信息
+>
+$$
+x^2 + y^2 =z^2, \quad x_{1,2} = \frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
+</details>
+
+
 ## 参考网站
+- [Chirpy Blog Customization@huanyushi](https://huanyushi.github.io/posts/chirpy-blog-customization/)
 - [Chirpy官网语法讲解](https://chirpy.cotes.page/posts/write-a-new-post/#table-of-contents)
 - [Markdown语法及测试](https://www.cnblogs.com/olimi/p/16173745.html)
