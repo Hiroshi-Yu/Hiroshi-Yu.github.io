@@ -6,23 +6,21 @@ tags: [社区管理]     # TAG
 media_subpath : /assets/img/in-post/2024/2024-08-08/
 description: 为本网站做文档贡献时的文章书写方法汇总
 image:
-    path: idempiere11_img_back.jpg
+    path: img_back.png
 comments: false # 关闭评论    
 math: true # 加载数学功能
 Mermaid: true #图表生成工具
 ---
 
-## 概要
+## 1.概要
 
-想参与到文档书写的话，可以在通过在github上提交pull request的方式参与进来。
-文档格式使用Markdown，同时支持Jekyll+Chirpy主题的一些格式优化语法。
+这个静态网站使用了github官方支持的Jekyll工具构建，采用了[Chirpy theme for Jekyll](https://chirpy.cotes.page)主题，文档语法使用Markdown+Chirpy提供的扩展书写。
+想参与文档共创的话，可以在通过在github上提交pull request的方式参与进来。
 
-> 这里仅显示效果，语法请在github上参看原文。
-{: .prompt-tip }
+同时，这篇文章大部分仅显示了实现效果，具体语法请在github上参看raw文件。
+{: .box-tip }
 
----
-
-## 1.Github仓的相关信息
+## 2.Github仓的相关信息
 
 #### **文章管理位置** - 文件夹：`_posts\[年]\[年-月-日]_[你的文章名].md`{: .filepath}
 
@@ -36,10 +34,14 @@ Mermaid: true #图表生成工具
 
 ---
 
-## 2.文档语法
+## 3.文档语法
 
-#### 眉批(Front Matter)
-在文档的最前端定义的信息，决定了这个文档的各类属性。
+### 眉批(Front Matter)
+
+<div class="box-tip" markdown="1">
+<div class="title">在文档的最前端定义的信息，决定了这个文档的各类属性。</div>
+下述样例内容是眉批的所以相关属性定义，实际书写时，仅定义title、date、categories、tags、description即可。
+</div>
 
 ```yaml
     ---
@@ -69,8 +71,12 @@ Mermaid: true #图表生成工具
 ```
 {: .nolineno }
 
-#### 图片
+### 文章
 
+文章基本书写方式请在网上查找markdown格式文档的制作说明。
+后续就一些可以丰富markdown表现形式的书写方式进行说明。
+
+#### 图片
 
 ```markdown
     ![图片测试](idempiere11_img_back.jpg){:.shadow width="250"}
@@ -184,10 +190,10 @@ $$
 #### HTML元素定义
 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
 
-#### 展开
+#### 折叠展现
 <details class="details-block" markdown="1">
-<summary> 展开前状态 </summary>
-展开后信息
+<summary> 折叠状态 </summary>
+展开后显示的信息
 >
 $$
 x^2 + y^2 =z^2, \quad x_{1,2} = \frac{-b\pm\sqrt{b^2-4ac}}{2a}
@@ -195,7 +201,7 @@ $$
 </details>
 
 
-## 参考网站
+## 4.参考网站
 - [Chirpy Blog Customization@huanyushi](https://huanyushi.github.io/posts/chirpy-blog-customization/)
 - [Chirpy官网语法讲解](https://chirpy.cotes.page/posts/write-a-new-post/#table-of-contents)
 - [Markdown语法及测试](https://www.cnblogs.com/olimi/p/16173745.html)
