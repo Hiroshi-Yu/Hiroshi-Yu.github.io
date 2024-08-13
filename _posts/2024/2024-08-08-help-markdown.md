@@ -40,7 +40,7 @@ Mermaid: true #图表生成工具
 
 <div class="box-tip" markdown="1">
 <div class="title">在文档的最前端定义的信息，决定了这个文档的各类属性。</div>
-下述样例内容是眉批的所以相关属性定义，实际书写时，仅定义title、date、categories、tags、description即可。
+下述样例内容是眉批的所有（笔者目前掌握的）相关属性定义，实际书写时，仅定义title、date、categories、tags、descriptiony亦可。
 </div>
 
 ```yaml
