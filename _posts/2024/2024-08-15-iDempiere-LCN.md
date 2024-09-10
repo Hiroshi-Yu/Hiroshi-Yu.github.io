@@ -145,7 +145,8 @@ _注：如果没有Excel工具，可以直接下载[会计科目表CSV文件](ht
 
 >
 - 创建新租户(Initial Tenant Setup)
-  在该功能的字段【Chart of Accounts File】中选择我们的科目表CSV文件即可创建缺省科目的信息
+  * 在iDempiere中建议选择【Use Default CoA】，这样会自动创建缺省科目，不需要使用科目表文件。
+  * 也可以按照ADempiere时的操作方法，在字段【Chart of Accounts File】中选择我们的科目表CSV文件即可创建缺省科目的信息后创建新租户。
 - 导入科目表（Import File Loader）
   在该功能中选择我们的科目表CSV文件导入信息
 {: .box-tip }
