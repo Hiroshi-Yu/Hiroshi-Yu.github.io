@@ -2,9 +2,9 @@
 title: 工作流编辑器的水平展开
 date:  2024-09-10 +0800
 categories: [iDempiere学习] #上级文文档，下级文档
-tags: [Google Group研究][iDempiere开发]     # TAG
+tags: [开发研究]     # TAG
 media_subpath : /assets/img/in-post/2024/2024-09-10/
-description: 工作流编辑器的水平展开
+description: iDempiere的工作流编辑器的自动水平展开问题的研讨
 image:
     path: modular.png
 ---
