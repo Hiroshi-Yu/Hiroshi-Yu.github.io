@@ -57,10 +57,10 @@ private int noOfColumns = COLUMNS;
 
 ### 效果
 
-![move1](move1.png){:.shadow width="250"}
+![move1](move1.png){:.shadow width="400"}
 _拖拽中_
 
-![move1](move1.png){:.shadow width="250"}
+![move2](move2.png){:.shadow width="400"}
 _拖拽完成_
 
 ### 其他
