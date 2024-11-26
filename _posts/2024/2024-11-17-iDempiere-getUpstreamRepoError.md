@@ -3,10 +3,7 @@ title: 拉取iDempiere最新代码后开发环境报错
 date:  2024-11-07 +0800
 categories: [iDempiere学习] #上级文文档，下级文档
 tags: [开发研究]     # TAG
-media_subpath : /assets/img/in-post/2024/2024-11-07/
 description: 拉取iDempiere最新代码后开发环境报错
-image:
-    path: lcn.jpg
 ---
 
   > 非常遗憾，这篇文章目前没有什么意义，目前仅作为一个失败的参考留下来吧。
