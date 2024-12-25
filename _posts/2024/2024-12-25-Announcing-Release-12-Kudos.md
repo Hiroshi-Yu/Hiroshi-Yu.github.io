@@ -1,14 +1,14 @@
 ---
-title: iDempiere 企业级 ERP/CRM/SCM 12 Kudos 发布
-date:  2024-12-35 +0800
+title: iDempiere企业级 ERP/CRM/SCM 12 Kudos 发布
+date:  2024-12-25 +0800
 categories: [iDempiere新闻] #上级文文档，下级文档
-tags: [iDempiere新闻     # TAG
-description: iDempiere 12 Kudos 于 2024 年 12 月 25 日发布。
+tags: [iDempiere新闻]     # TAG
+description: iDempiere12 Kudos 于2024年12月25日发布。
 ---
 
 **iDempiere. Community Powered Enterprise**
 
-## iDempiere 12 Kudos 于 2024 年 12 月 25 日发布
+## iDempiere 12 Kudos 于 2024 年 12 月 25 日发布
 
 官方发布了 v12 的上线通知：
 https://groups.google.com/g/idempiere/c/OLXLGcUT9qU
@@ -25,21 +25,21 @@ https://wiki.idempiere.org/en/Category:New_Features_w12
 
 ### 软件发布履历
 
-2023 年 12 月 25 日发布了 11 Synergy
-2022 年 12 月 26 日发布了 10 Peace
-2021 年 12 月 27 日发布了 9 Horizon
-2020 年 12 月 23 日发布了 8.2 Phong
-2019 年 11 月 22 日发布了 7.1
-2019 年 01 月 05 日发布了 6.2
-2018 年 11 月 04 日发布了 6.1
-2017 年 10 月 31 日发布了 5.1
-2016 年 10 月 31 日发布了 4.1
-2015 年 10 月 31 日发布了 3.1
-2014 年 10 月 31 日发布了 2.1
-2013 年 10 月 31 日发布了 2.0
-2013 年 06 月 27 日发布了 1.0c
-2013 年 04 月 24 日发布了 1.0b
-2012 年 10 月 31 日发布了 1.0a
+* 2023 年 12 月 25 日发布了 11 Synergy
+* 2022 年 12 月 26 日发布了 10 Peace
+* 2021 年 12 月 27 日发布了 9 Horizon
+* 2020 年 12 月 23 日发布了 8.2 Phong
+* 2019 年 11 月 22 日发布了 7.1
+* 2019 年 01 月 05 日发布了 6.2
+* 2018 年 11 月 04 日发布了 6.1
+* 2017 年 10 月 31 日发布了 5.1
+* 2016 年 10 月 31 日发布了 4.1
+* 2015 年 10 月 31 日发布了 3.1
+* 2014 年 10 月 31 日发布了 2.1
+* 2013 年 10 月 31 日发布了 2.0
+* 2013 年 06 月 27 日发布了 1.0c
+* 2013 年 04 月 24 日发布了 1.0b
+* 2012 年 10 月 31 日发布了 1.0a
 
 ### 备注：Open JDK 的Support期限
 
