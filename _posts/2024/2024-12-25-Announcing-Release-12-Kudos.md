@@ -41,7 +41,7 @@ https://wiki.idempiere.org/en/Category:New_Features_w12
 * 2013 年 04 月 24 日发布了 1.0b
 * 2012 年 10 月 31 日发布了 1.0a
 
-### 备注：Open JDK 的Support期限
+### 备注：Open JDK 17 的Support期限
 
 信息源：https://qiita.com/yamadamn/items/2dd26a014791b9557199
 
