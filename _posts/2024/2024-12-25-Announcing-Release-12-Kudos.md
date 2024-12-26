@@ -3,15 +3,16 @@ title: iDempiere企业级 ERP/CRM/SCM 12 Kudos 发布
 date:  2024-12-25 +0800
 categories: [iDempiere新闻] #上级文文档，下级文档
 tags: [iDempiere新闻]     # TAG
+media_subpath : /assets/img/in-post/2024/2024-12-25/
 description: iDempiere12 Kudos 于2024年12月25日发布。
 ---
 
 **iDempiere. Community Powered Enterprise**
 
 ## iDempiere 12 Kudos 于 2024 年 12 月 25 日发布
-
-官方发布了 v12 的上线通知：
-https://groups.google.com/g/idempiere/c/OLXLGcUT9qU
+官方发布了 [v12 的上线通知](https://groups.google.com/g/idempiere/c/OLXLGcUT9qU)
+![toppage](idempiere-toppage.png)
+_iDempiere 12 Kudos页面_
 
 ### 系统基盘的注意点
 从笔者的认知角度，没有大型的基盘更新。
