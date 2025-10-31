@@ -27,15 +27,14 @@ image:
 
    gitee：[UI中文化](https://gitee.com/idchina/chinese-translation/tree/master/zh_CN)
 
-
-1. CoA（Chart of Account）
-
-   gitee：[会计科目表](https://gitee.com/idchina/chinese-translation/tree/master/Utils/iDChina_AccountingCN.xlsx)
-
 1. 主数据
 
    gitee：[省市主数据](https://gitee.com/idchina/chinese-translation/tree/master/Utils/sql_region_city.sql) 
    > 注：_**仅可在Postgresql中执行。** 应该没有使用特殊语法，在Oracle中应也可直接执行Insert Into语句_
+
+1. CoA（Chart of Account）
+
+   gitee：[会计科目表](https://gitee.com/idchina/chinese-translation/tree/master/Utils/iDChina_AccountingCN.xlsx)
 
 1. **(尚无)** 本地化功能
 
@@ -116,9 +115,27 @@ image:
 > 重新登录系统时，系统登录界面的Language字段可以选中文，选择中文后，理论上翻译文件中的所有中文字段都可以显示了。
 {: .box-tip }
 
-### 2. CoA（Chart of Account）
+### 2. 主数据
 
-#### 2.1. 科目表的准备
+#### 2.1. 主数据的准备
+
+> 下载 gitee：[省市主数据](https://gitee.com/idchina/chinese-translation/tree/master/Utils/sql_region_city.sql) 
+{: .box-tip }
+
+#### 2.2. 添加主数据
+
+> 打开pgadmin4等工具，连接到iDempiere数据库中后执行该SQL文件
+{: .box-tip }
+
+#### 2.3. 修改UI中文化文件也无法更改的界面信息
+
+> 请使用插件并执行相关功能即可，请参考本地化插件的说明信息
+> [https://idempiere.cn/posts/iDempiere-LCN-plugins/](https://idempiere.cn/posts/iDempiere-LCN-plugins/)
+{: .prompt-danger }
+
+### 3. CoA（Chart of Account）
+
+#### 3.1. 科目表的准备
 
 >从gitee下载[会计科目表](https://gitee.com/idchina/chinese-translation/tree/master/Utils/iDChina_AccountingCN.xlsx)文件。由于iDempiere仅支持CSV文件的上传，需要手工的把Sheet：AccountingCN另存为CSV文件。
 >
@@ -134,7 +151,7 @@ _注：如果没有Excel工具，可以直接下载[会计科目表CSV文件](ht
 </details>
 {: .box-info }
 
-#### 2.2. 创建新租户、导入科目表
+#### 3.2. 创建新租户、导入科目表
 
 > 创建新租户(Initial Tenant Setup)的方法可以参考以下信息：
 > 
@@ -150,21 +167,3 @@ _注：如果没有Excel工具，可以直接下载[会计科目表CSV文件](ht
 - 导入科目表（Import File Loader）
   在该功能中选择我们的科目表CSV文件导入信息
 {: .box-tip }
-
-### 3. 主数据
-
-#### 3.1. 主数据的准备
-
-> 下载 gitee：[省市主数据](https://gitee.com/idchina/chinese-translation/tree/master/Utils/sql_region_city.sql) 
-{: .box-tip }
-
-#### 3.2. 添加主数据
-
-> 打开pgadmin4等工具，连接到iDempiere数据库中后执行该SQL文件
-{: .box-tip }
-
-#### 3.3. 修改UI中文化文件也无法更改的界面信息
-
-> 请使用插件并执行相关功能即可，请参考本地化插件的说明信息
-> [https://idempiere.cn/posts/iDempiere-LCN-plugins/](https://idempiere.cn/posts/iDempiere-LCN-plugins/)
-{: .prompt-danger }
